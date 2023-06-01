@@ -1,0 +1,38 @@
+#link2 #link4 {
+    color: red;
+    text-decoration: solid;
+}
+#colorchilderen> div>div>div{
+    color: red;
+}
+#colorchilderen > div > div > div > div{
+    color: yellow;
+}
+#colorchilderen >div:nth-child(2),
+#colorchilderen >div:nth-child(3),
+#colorchilderen >div:nth-child(4),
+#colorchilderen >div:nth-child(5){
+    color: green;
+}
+
+#bluecolor ul li:nth-child(2){
+    color: blue;
+}
+#evenodd  li:nth-child(2n){
+    color: red;
+}
+
+#evenodd  li:nth-child(2n+1){
+    color: blue;
+}
+#lastselector ul li:last-child{
+    color: red;
+}
+
+a:hover{
+    color: red;
+}
+
+a:active{
+    color: blue;
+}
